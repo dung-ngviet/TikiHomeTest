@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">TikiHomeDemo</string>
+
+  <string name="home_search_box_hint">What are you looking today?</string>
+</resources>
