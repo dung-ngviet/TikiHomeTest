@@ -17,7 +17,7 @@ import vn.dxg.tikihomedemo.utils.applyScheduler
 import vn.dxg.tikihomedemo.utils.toMainThread
 import java.util.concurrent.TimeUnit
 
-class TikiHomePresenter(val view: View): Presenter {
+class TikiHomePresenter(private val view: View): Presenter {
   private val tikiAPIs by lazy {
     RetrofitClient.instance?.create(TikiAPIs::class.java)
   }
